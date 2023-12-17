@@ -25,26 +25,28 @@
 
       <div id="signup-card">
         <div id="form-container">
-          <h1>Stay updated!</h1>
-          <p>Join 60,000+ product managers receiving monthly updates on:</p>
-          <ul>
-            <li class="icon-list">Product discovery and building what matters</li>
-            <li class="icon-list">Measuring to ensure updates are a success</li>
-            <li class="icon-list">And much more!</li>
-          </ul>
-          <form action="post" id="card-form">
-            <div><label for="email" id="email-label">Email address</label>
-              <p id="error-message">Valid email required</p>
-            </div>
-
-            <input type="email" name="email" id="email-input" placeholder="email@company">
-            <button type="submit" id="email-button">Subscribe to monthly newsletter</button>
-          </form>
+          <div id="form-details">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <ul>
+              <li class="icon-list">Product discovery and building what matters</li>
+              <li class="icon-list">Measuring to ensure updates are a success</li>
+              <li class="icon-list">And much more!</li>
+            </ul>
+            <form action="post" id="card-form">
+              <div id="label-message">
+                <label for="email" id="email-label">Email address</label>
+                <p id="error-message">Valid email required</p>
+              </div>
+              <input type="email" name="email" id="email-input" placeholder="email@company">
+              <button type="submit" id="email-button">Subscribe to monthly newsletter</button>
+            </form>
+          </div>
+          <div id="card-img"><span></span>
+            <!-- <img src="./assets/images/illustration-sign-up-desktop.svg" alt="vector image of display
+          with a floating window showing a chart and rating"> -->
+          </div>
         </div>
-        <div id="card-img"><img src="./assets/images/illustration-sign-up-desktop.svg" alt="vector image of display
-          with a floating window showing a chart and rating">
-        </div>
-
       </div>
       <!-- Sign-up form end -->
 
