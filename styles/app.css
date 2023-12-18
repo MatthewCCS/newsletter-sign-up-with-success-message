@@ -135,7 +135,7 @@ ul {
 }
 
 .icon-list {
-  background: left/contain no-repeat url(/assets/images/icon-list.svg);
+  background: left/contain no-repeat url(../assets/images/icon-list.svg);
   background-size: auto;
   background-position: inherit;
   padding-left: 35px;
